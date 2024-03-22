@@ -15,10 +15,11 @@ We utilized a publicly available dataset, "Dataset of breast ultrasound images,"
 - **Preprocessing**: Removed duplicates, corrected annotations, and converted DICOM to PNG.
 - **Ground Truth Annotation**: Accurate delineation of image boundaries.
 ![alt text](https://github.com/aparnabg/CNN-Architectures-on-Breast-Ultrasound-Images-Dataset/blob/main/breast%20cancer%20data%20images/daat%20distribution.png?raw=true)
-![alt text](https://github.com/aparnabg/CNN-Architectures-on-Breast-Ultrasound-Images-Dataset/blob/main/breast%20cancer%20data%20images/data%20after%20augmentation.png?raw=true)
+
 ## Data Augmentation
 
 To address class imbalance, we employed data augmentation techniques including rotation, shifting, zooming, shearing, and flipping. This approach generated additional samples, balancing the dataset and enhancing model robustness.
+![alt text](https://github.com/aparnabg/CNN-Architectures-on-Breast-Ultrasound-Images-Dataset/blob/main/breast%20cancer%20data%20images/data%20after%20augmentation.png?raw=true)
 
 ## Implemented CNN Architectures
 
